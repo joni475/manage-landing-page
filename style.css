@@ -330,7 +330,7 @@ footer a {
 
 
 
-@media(max-width: 1048px) {
+@media(max-width: 849px) {
     nav {
         padding-right: 5%;
         padding-left: 5%;
@@ -389,7 +389,7 @@ footer a {
 }
 
 
-@media (min-width: 1049px) {
+@media (min-width: 850px) {
     h1 {
         font-size: 56px;
         line-height: 64px;
@@ -404,10 +404,10 @@ footer a {
         background: url(./images/bg-tablet-pattern.svg);
         background-repeat:  no-repeat;
         background-position: left bottom;
-        background-size: 650px;
+        /* background-size: 650px;
         width: 550px;
         height: 550px;
-        top: -11px;
+        top: -11px; */
         right: 0;
         z-index: -1;
       }
