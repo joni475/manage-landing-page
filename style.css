@@ -53,8 +53,6 @@ p {
 
 /* nav styling */
 .container {
-    max-width: 1140px;
-    margin: 0 auto;
     padding: 0 1em 1em 1em;
 }
 nav {
@@ -397,6 +395,10 @@ footer a {
     h2 {
        font-size: 40px;
        line-height: 44px;
+    }
+    .container {
+        max-width: 1140px;
+        margin: 0 auto;
     }
     .contain::before {
         content: '';
