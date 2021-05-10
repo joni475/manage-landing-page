@@ -330,7 +330,7 @@ footer a {
 
 
 
-@media(max-width: 780px) {
+@media(max-width: 937px) {
     nav {
         padding-right: 5%;
         padding-left: 5%;
@@ -389,7 +389,7 @@ footer a {
 }
 
 
-@media (min-width: 781px) {
+@media (min-width: 938px) {
     h1 {
         font-size: 56px;
         line-height: 64px;
@@ -525,6 +525,7 @@ footer a {
     display: flex;
     justify-self: flex-end;
     align-self: center;
+    flex: 1 1 auto;
 }
 .footer-link {
    grid-row: 1 / span 2;
