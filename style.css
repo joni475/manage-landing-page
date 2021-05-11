@@ -404,17 +404,17 @@ footer a {
         overflow: hidden;
     }
     .contain::before {
-        content: '';
-        position: absolute;
-        background: url(./images/bg-tablet-pattern.svg);
-        background-repeat:  no-repeat;
-        background-position: left bottom;
-        background-size: 650px;
-        width: 550px;
-        height: 550px;
-        top: -11px;
-        right: 0;
-        z-index: -1;
+            content: '';
+            position: absolute;
+            background: url(./images/bg-tablet-pattern.svg);
+            background-repeat:  no-repeat;
+            background-position: left bottom;
+            background-size: 850px;
+            width: 700px;
+            height: 600px;
+            top: -11px;
+            right: 0;
+            z-index: -1
       }
       main::before {
           content: "";
@@ -427,8 +427,8 @@ footer a {
           background-size: 500px;
           left: -200px;
           z-index: -1;
-          bottom: -8em;
-         
+          bottom: -40em;
+          transform: rotate(0);
       }
     .logo {
         margin-top: 10px;
@@ -573,7 +573,7 @@ footer a {
 }
 }
 
-@media(min-width: 1400px) {
+@media(min-width: 1500px) {
     .contain::before {
         content: '';
         position: absolute;
