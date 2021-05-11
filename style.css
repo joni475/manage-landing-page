@@ -422,9 +422,9 @@ footer a {
           background: url(./images/bg-tablet-pattern.svg);
           background-repeat: no-repeat;
           background-position: top right;
-          width: 400px;
-          height: 350px;
-          background-size: 500px;
+          width: 500px;
+          height: 450px;
+          background-size: 800px;
           left: -200px;
           z-index: -1;
           bottom: -40em;
