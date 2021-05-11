@@ -54,6 +54,7 @@ p {
 /* nav styling */
 .container {
     padding: 0 1em 1em 1em;
+    overflow: hidden;
 }
 nav {
     display: flex;
@@ -133,12 +134,13 @@ nav {
       background: url(./images/bg-tablet-pattern.svg);
       background-repeat: no-repeat;
       background-position: top right;
-      width: 300px;
-      height: 350px;
+      width: 150px;
+      height: 250px;
       background-size: 300px;
-      right: -165px;
+      right: 15px;
       z-index: -1;
-      bottom: -135px;
+      bottom: -100px;
+      transform: rotate(180deg);
   }
 header h1 {
   margin: 0.5em 0 0 0;
@@ -155,7 +157,7 @@ header button {
 /* main styling */
 main {
     padding: 2em 0 0 0;
-    
+    overflow: hidden;
 }
 .main-head {
     padding-bottom: 2em;
@@ -348,7 +350,7 @@ footer a {
         padding: 2em 0;
         border-radius: 5px;
         z-index: 2;
-        transform: translate(120%);
+        transform: translate(-120%);
         transition: 0.3s ease-in;
     }
     .nav-link.show {
@@ -386,7 +388,7 @@ footer a {
     }
 }
 
-
+ 
 @media (min-width: 850px) {
     h1 {
         font-size: 56px;
@@ -399,6 +401,7 @@ footer a {
     .container {
         max-width: 1140px;
         margin: 0 auto;
+        overflow: hidden;
     }
     .contain::before {
         content: '';
@@ -406,10 +409,10 @@ footer a {
         background: url(./images/bg-tablet-pattern.svg);
         background-repeat:  no-repeat;
         background-position: left bottom;
-        /* background-size: 650px;
+        background-size: 650px;
         width: 550px;
         height: 550px;
-        top: -11px; */
+        top: -11px;
         right: 0;
         z-index: -1;
       }
@@ -425,6 +428,7 @@ footer a {
           left: -200px;
           z-index: -1;
           bottom: -8em;
+         
       }
     .logo {
         margin-top: 10px;
@@ -572,7 +576,7 @@ footer a {
 }
 
 
-@media(min-width: 1400px) {
+/* @media(min-width: 1400px) {
     .contain::before {
         content: '';
         position: absolute;
@@ -599,5 +603,5 @@ footer a {
         z-index: -1;
         bottom: -38em;
     }
-} 
+}   */
 
