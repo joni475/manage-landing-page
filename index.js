@@ -29,7 +29,7 @@ function size() {
   slideIndex++;
   if (slideIndex > slides.length) {slideIndex = 1}
   slides[slideIndex-1].style.display = "block";
-  setTimeout(size, 2000);  
+  setTimeout(size, 10000);  
     }
 }
 
